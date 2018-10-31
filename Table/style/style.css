@@ -1,0 +1,39 @@
+body {
+    margin:0;
+    font-size: 18px;
+    background-color: #dce2ed;
+}
+section {
+    width: 70%;
+    padding: 5px;
+    margin: 0 auto;
+    background-color: white;
+}
+table {
+    width: 100%;
+    border: 2px outset;
+    border-spacing: 3px;
+}
+th, td {
+    border: 2px inset;
+    padding: 5px;
+}
+.second, .third {
+    width: 60%;
+    margin: 20px auto;
+}
+.second td:first-child {
+    font-weight: bold;
+}
+.third {
+    border: 3px solid grey;
+    border-collapse: collapse;
+}
+.third td {
+    vertical-align: top;
+    border: 2px solid grey;
+}
+.third th {
+    text-align: left;
+    border: 2px solid grey;
+}
